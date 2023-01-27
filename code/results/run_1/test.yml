@@ -1,0 +1,212 @@
+version: "3.1"
+nlu:
+- intent: interpretation
+  examples: |
+    - I have learnt to observe my thoughts better
+- intent: advantages_of_acting
+  examples: |
+    - I can now point in the direction I need to work upon myself
+- intent: explain
+  examples: |
+    - Well, you had me list all the things I was worried about, and pretend to solve them one by one.
+    - Because sometimes my thoughts aren’t true, and if I can figure out what I’m thinking, I can change it around and feel better.
+- intent: behavior
+  examples: |
+    - I just pretended that I did not see him
+- intent: goodbye
+  examples: |
+    - goodbye
+    - cee you later
+- intent: greet
+  examples: |
+    - hello
+    - hey dude
+    - goodevening
+- intent: evidence_for
+  examples: |
+    - I got a bad rank in that exam
+    - I didn’t do well last time
+    - Many people forgot my birthday
+- intent: evidence_against
+  examples: |
+    - The professor has praised me before for my knowledge
+    - The average marks of the class itself was very low
+    - Applying to colleges has a lot of luck factor in it
+    - I was just having a bad day
+- intent: act_how
+  examples: |
+    - I would take more risks in life in general
+    - I would take risks to meet new people
+    - I would be able to enjoy with my friends better without overthinking
+    - I would be able to appreciate myself better
+- intent: felt_where
+  examples: |
+    - Face was on fire
+    - Stomach was hurting
+    - Inside my head
+    - Chest pain/heavy
+- intent: thought+situation
+  examples: |
+    - I feel anxious about the stock market
+    - I am always anxious regarding the surprise quizzes in my courses
+    - Facing difficulty in finding new job
+    - I feel very clumsy about myself
+- intent: positive_belief
+  examples: |
+    - All my efforts will pay off
+    - I have the ability to move on from this failure
+    - This time it will be better
+    - I can actually get very good at this
+    - This just seems like the perfect path
+- intent: disagree
+  examples: |
+    - Not correct
+    - wrong
+    - I strongly disagree
+    - Definitely not
+    - no not at all
+- intent: telling_friend
+  examples: |
+    - It is impossible to live without failing at something unless you live so cautiously that you might as well not have lived at all, in which case you have failed by default
+    - Strongest of characters have to go through the suffering that you are going through. You just have to learn from it and use it to better yourself.
+    - Times will be great again and you will soon feel wonderful about yourself even if you don’t know
+    - You might feel like this because you stay alone, but you do have people who care about you and are just a call away
+    - This suffering will only make you a stronger individual and you will soon be over it
+    - Failures are necessary in your journey, as they teach you a lot about taking the right steps
+- intent: feeling+situation
+  examples: |
+    - I felt humiliated when the professor scolded me in front of the whole class
+    - I felt demoralized when I could not achieve my targets
+    - I love it when my friends surprise me
+    - I felt sorry for the guy getting bullied
+    - I felt good when I am with my family
+    - I felt angry when they bullied the shy kind in the class
+    - I felt bad when friends could not take some time out to call me
+- intent: agree
+  examples: |
+    - More or less, yeah
+    - Acknowledge your advice
+    - definitely
+    - Absolutely
+    - It does make sense
+    - Pretty sure
+    - That probably makes sense
+    - yes
+- intent: situation_area
+  examples: |
+    - Public speaking
+    - run
+    - Sports
+    - Tourrettes
+    - sleep
+    - finance
+    - laugh
+    - future
+- intent: doubt
+  examples: |
+    - What do I do now ?
+    - Not sure what to do
+    - I feel lost and unsure
+    - Really difficult for me to decide
+    - I am so indecisive
+    - I am not sure if I am capable of doing this or not
+    - I am not sure
+    - negative belief
+    - I am not sure about my life right now
+- intent: negative_belief
+  examples: |
+    - I am basically defective and inferior to other people
+    - I just follow the crowd and have no opinions of my own
+    - Nobody loves me
+    - I will always be a failure
+    - I will never have a good career
+    - I don’t deserve good
+    - I must always try to be perfect
+    - No one thinks of me as a friend
+    - Nobody cares about me
+- intent: situation
+  examples: |
+    - I was at my dad’s friends place where everyone was discussing how their kids are doing in life
+    - I was catching up with my ex girlfriend
+    - Nobody found time to attend the party I was throwing
+    - i have a paper due next week
+    - I had fever
+    - I was sitting alone in the hospital ward
+    - My friends do not pay any attention to anything I have to say
+    - When I talk about my mental health, everyone just rubbishes everything that I have to say
+    - I had to go to class to get back my marks of the mid sem exam
+    - kids don't study
+    - I do not play with Rubik's cube.
+    - it was about 6:15. I had just gotten back from dinner. The dorm was pretty empty because I ate early. i was about to get my books out of my backpack so i could do my chemistry homework.
+    - I missed a trip in which all my friends went
+    - Just before going for the interview.
+    - When my partner really made me feel undervalued
+    - Doing Nothing creative
+- intent: thought
+  examples: |
+    - What if I get fired?
+    - My colleagues judge me on the college I graduated from
+    - I thought he will never forgive me
+    - My heart started beating real fast and I thought, “What’s wrong with me?”
+    - How do I even move forward from here ?
+    - That I’m not smart enough. I don’t have what it takes.
+    - Will I ever make it to the team ?
+    - Am I suffering from insomnia ?
+    - What the heck is wrong with me?
+    - I might not complete my degree on time and will always lag behind
+    - My professor thinks that I do no work at all and I am just fooling around
+    - What if I don’t get shortlisted?
+    - Does she like me at all ?
+    - No, not at all! I was thinking that I don’t know whether I belong here.
+    - Why is she spreading lies about me ?
+    - If I say something, it won't come out right. People will judge.
+    - I'm beginning to think I will never go into this field as I've left it too late
+- intent: feeling
+  examples: |
+    - I feel hostile
+    - How irritating it is
+    - life is boring
+    - I am terrified
+    - not very good
+    - I feel nervous
+    - I'm not good
+    - I broke out in a cold sweat
+    - I am ill
+    - This is nerve racking
+    - Worst day ever!
+    - This is boring
+    - I grow weary
+    - I'm quite tense.
+    - I'd feel better
+    - You bet I'm angry
+    - I am feeling so angry
+    - I've overworked
+    - I am demotivated
+    - it bores me
+    - i am kind of so tired
+    - I am on edge
+    - That is frightening
+    - I don't feel like doing anything
+    - Everything vexes me
+    - very boring
+    - I'm drained
+    - This feels bad
+    - I am anxious
+    - That is outrageous!
+    - I feel anxious
+    - awful
+    - sad and hopeless
+    - We're all bored
+    - I'm under immense stress
+    - I'm furious
+    - I'm really lonely
+    - I'm having a bad feeling
+    - I am used to living alone
+    - I'm stressed
+    - I'm worn out
+    - I am feeling empty
+    - I've never been more bored
+    - I'm so lonely
+    - I have no patience today
+    - I was very tired
+    - that would be a great relief if the paper were done, and I thought I'd done well.

@@ -1,0 +1,12 @@
+version: "3.1"
+
+stories:
+
+- story: custom path 1
+  steps: 
+  - intent: greet 
+  - action: utter_greet
+  - intent: feeling 
+  - action: utter_happy
+  - intent: situation
+  - action: utter_goodbye

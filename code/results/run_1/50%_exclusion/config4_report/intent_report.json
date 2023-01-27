@@ -1,0 +1,237 @@
+{
+  "doubt": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "feeling": 3,
+      "thought": 3,
+      "situation_area": 1
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "agree": 1,
+      "thought": 1
+    }
+  },
+  "situation": {
+    "precision": 0.36363636363636365,
+    "recall": 0.5,
+    "f1-score": 0.4210526315789474,
+    "support": 16,
+    "confused_with": {
+      "thought": 5,
+      "negative_belief": 1
+    }
+  },
+  "advantages_of_acting": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "doubt": 1
+    }
+  },
+  "disagree": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "agree": 3,
+      "feeling": 2
+    }
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "thought": 1
+    }
+  },
+  "feeling+situation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "situation": 5,
+      "feeling": 1,
+      "thought": 1
+    }
+  },
+  "evidence_for": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "situation": 2,
+      "thought": 1
+    }
+  },
+  "explain": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "telling_friend": 1,
+      "thought": 1
+    }
+  },
+  "behavior": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "thought": 1
+    }
+  },
+  "positive_belief": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "thought": 2,
+      "agree": 1,
+      "situation": 1
+    }
+  },
+  "negative_belief": {
+    "precision": 0.42857142857142855,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.375,
+    "support": 9,
+    "confused_with": {
+      "thought": 5,
+      "situation": 1
+    }
+  },
+  "thought+situation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "feeling+situation": 1,
+      "feeling": 1,
+      "situation_area": 1
+    }
+  },
+  "felt_where": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "feeling": 4
+    }
+  },
+  "feeling": {
+    "precision": 0.7241379310344828,
+    "recall": 0.8936170212765957,
+    "f1-score": 0.7999999999999999,
+    "support": 47,
+    "confused_with": {
+      "telling_friend": 1,
+      "agree": 1
+    }
+  },
+  "situation_area": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 8,
+    "confused_with": {
+      "feeling": 1,
+      "agree": 1
+    }
+  },
+  "telling_friend": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "thought": {
+    "precision": 0.3888888888888889,
+    "recall": 0.8235294117647058,
+    "f1-score": 0.5283018867924528,
+    "support": 17,
+    "confused_with": {
+      "situation": 2,
+      "doubt": 1
+    }
+  },
+  "interpretation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "evidence_for": 1
+    }
+  },
+  "act_how": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "situation": 1,
+      "negative_belief": 1
+    }
+  },
+  "agree": {
+    "precision": 0.4666666666666667,
+    "recall": 0.875,
+    "f1-score": 0.608695652173913,
+    "support": 8,
+    "confused_with": {
+      "feeling": 1
+    }
+  },
+  "evidence_against": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "feeling": 2,
+      "situation": 1,
+      "negative_belief": 1
+    }
+  },
+  "accuracy": 0.536144578313253,
+  "macro avg": {
+    "precision": 0.312359149036265,
+    "recall": 0.2844915045321803,
+    "f1-score": 0.2684936224706744,
+    "support": 166
+  },
+  "weighted avg": {
+    "precision": 0.4430979028818663,
+    "recall": 0.536144578313253,
+    "f1-score": 0.46469114382118437,
+    "support": 166
+  },
+  "micro avg": {
+    "precision": 0.536144578313253,
+    "recall": 0.536144578313253,
+    "f1-score": 0.536144578313253,
+    "support": 166
+  }
+}

@@ -1,0 +1,14 @@
+1. We will be working with a python virtual environment which we have created in this folder itself. 
+
+
+i. First open this folder on the terminal and activate the python venv using the command 
+	./nlu-env/Scripts/activate
+
+
+pip install spacy
+python -m spacy download en_core_web_md
+pip install transformers
+
+use rasa train nlu
+
+rasa test nlu --nlu data/nlu.yml --config config/config1.yml config/config2.yml config/config3.yml config/config4.yml --runs 4 --percentages 0 25 50 70 90

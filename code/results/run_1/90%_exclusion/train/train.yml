@@ -1,0 +1,113 @@
+version: "3.1"
+nlu:
+- intent: interpretation
+  examples: |
+    - I think i was overreacting in this situation
+- intent: advantages_of_acting
+  examples: |
+    - I feel I have more clarity about my thoughts now
+- intent: explain
+  examples: |
+    - I have dreams about my past relationships and that just makes me feel worse
+- intent: behavior
+  examples: |
+    - I just lay in my bed the whole day
+- intent: goodbye
+  examples: |
+    - cu
+- intent: greet
+  examples: |
+    - good evening
+- intent: evidence_against
+  examples: |
+    - I performed bad because my health was very bad that day
+- intent: evidence_for
+  examples: |
+    - No one messages me if I don’t message first
+- intent: act_how
+  examples: |
+    - I would be living in the moment
+- intent: felt_where
+  examples: |
+    - Here. In the pit of my stomach.
+- intent: thought+situation
+  examples: |
+    - I have been put under a lot of expectations regarding my career
+    - I worry about my exams all the time
+- intent: positive_belief
+  examples: |
+    - I feel I can do it
+    - I am just sad not depressed
+- intent: disagree
+  examples: |
+    - That’s not right
+    - Unlikely
+- intent: telling_friend
+  examples: |
+    - Failure isn't fatal, but failure to change might be
+    - We need to accept that we won't always make the right decisions, that we'll screw up royally sometimes – understanding that failure is not the opposite of success, it's part of success
+- intent: feeling+situation
+  examples: |
+    - I was delighted to see my parents at my convocation
+    - I was very scared when my relative got covid positive
+    - Feeling overwhelmed by work
+- intent: agree
+  examples: |
+    - I wholeheartedly concur
+    - Okay, I'll be ready.
+    - Feels correct
+- intent: situation_area
+  examples: |
+    - yoga practice
+    - no job
+    - Money
+    - Personal life
+- intent: doubt
+  examples: |
+    - i have self-doubt
+    - I am worried about the future
+    - some negative thought i had
+- intent: negative_belief
+  examples: |
+    - The world should always meet my expectations
+    - If I worry or feel bad about a situation, it will somehow make things better
+    - Other people are to blame for my problems
+- intent: situation
+  examples: |
+    - Disagreement with my colleague
+    - Condescending remarks from my teachers
+    - I stopped exercising
+    - Everybody ignored my messages
+    - I was on my phone for the whole weekend and was not able to complete any pending work that I had
+    - I was catching up with my school teacher who had expected a lot from me in life
+    - I looked at how I looked in the new dress my parents had gifted me
+- intent: thought
+  examples: |
+    - I don’t like to end up like them
+    - What did she say? What did I miss? Now I won’t know what to do.
+    - What if the professor thinks that I am an irresponsible student now ?
+    - I’ll probably never recover from this loss
+    - Will I be able to form a meaningful relationship with anyone in my life ?
+    - Will my parents be ever proud of me ?
+    - Will I be able to trust another person again ?
+- intent: feeling
+  examples: |
+    - I'm trembling from fear
+    - i am awfully tired
+    - I am all low today
+    - very sad
+    - I am disappointed
+    - I am a chronic worrier.
+    - that was boring
+    - my day was horrible
+    - I find myself worrying about every little detail
+    - I'm enraged
+    - I feel uneasy
+    - I have a lump in my throat
+    - I am petrified
+    - I feel bored
+    - I am stressed out
+    - I don't have anyone else
+    - I am very frustrated
+    - I'm bored
+    - sad, I think

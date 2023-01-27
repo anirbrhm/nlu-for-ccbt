@@ -1,0 +1,610 @@
+[
+  {
+    "text": "I have learnt to observe my thoughts better",
+    "intent": "interpretation",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.46281179785728455
+    }
+  },
+  {
+    "text": "I can now point in the direction I need to work upon myself",
+    "intent": "advantages_of_acting",
+    "intent_prediction": {
+      "name": "positive_belief",
+      "confidence": 0.24818533658981323
+    }
+  },
+  {
+    "text": "Well, you had me list all the things I was worried about, and pretend to solve them one by one.",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.2933979630470276
+    }
+  },
+  {
+    "text": "Because sometimes my thoughts aren’t true, and if I can figure out what I’m thinking, I can change it around and feel better.",
+    "intent": "explain",
+    "intent_prediction": {
+      "name": "telling_friend",
+      "confidence": 0.35281455516815186
+    }
+  },
+  {
+    "text": "I just pretended that I did not see him",
+    "intent": "behavior",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.40625303983688354
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "situation_area",
+      "confidence": 0.21073086559772491
+    }
+  },
+  {
+    "text": "I didn’t do well last time",
+    "intent": "evidence_for",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.7084016799926758
+    }
+  },
+  {
+    "text": "The professor has praised me before for my knowledge",
+    "intent": "evidence_against",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.7226967215538025
+    }
+  },
+  {
+    "text": "The average marks of the class itself was very low",
+    "intent": "evidence_against",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3047797977924347
+    }
+  },
+  {
+    "text": "Applying to colleges has a lot of luck factor in it",
+    "intent": "evidence_against",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.617141604423523
+    }
+  },
+  {
+    "text": "I was just having a bad day",
+    "intent": "evidence_against",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.2156684845685959
+    }
+  },
+  {
+    "text": "Chest pain/heavy",
+    "intent": "felt_where",
+    "intent_prediction": {
+      "name": "situation_area",
+      "confidence": 0.3239765167236328
+    }
+  },
+  {
+    "text": "I feel anxious about the stock market",
+    "intent": "thought+situation",
+    "intent_prediction": {
+      "name": "evidence_for",
+      "confidence": 0.21290351450443268
+    }
+  },
+  {
+    "text": "I am always anxious regarding the surprise quizzes in my courses",
+    "intent": "thought+situation",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.7453086972236633
+    }
+  },
+  {
+    "text": "Facing difficulty in finding new job",
+    "intent": "thought+situation",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.4223320186138153
+    }
+  },
+  {
+    "text": "I feel very clumsy about myself",
+    "intent": "thought+situation",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.4699046015739441
+    }
+  },
+  {
+    "text": "I have the ability to move on from this failure",
+    "intent": "positive_belief",
+    "intent_prediction": {
+      "name": "telling_friend",
+      "confidence": 0.787533164024353
+    }
+  },
+  {
+    "text": "This time it will be better",
+    "intent": "positive_belief",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.3667137622833252
+    }
+  },
+  {
+    "text": "I can actually get very good at this",
+    "intent": "positive_belief",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.6444596648216248
+    }
+  },
+  {
+    "text": "This just seems like the perfect path",
+    "intent": "positive_belief",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.4865153133869171
+    }
+  },
+  {
+    "text": "wrong",
+    "intent": "disagree",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.9179072976112366
+    }
+  },
+  {
+    "text": "I strongly disagree",
+    "intent": "disagree",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.9983899593353271
+    }
+  },
+  {
+    "text": "I felt humiliated when the professor scolded me in front of the whole class",
+    "intent": "feeling+situation",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.653574526309967
+    }
+  },
+  {
+    "text": "I felt demoralized when I could not achieve my targets",
+    "intent": "feeling+situation",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.642984926700592
+    }
+  },
+  {
+    "text": "I love it when my friends surprise me",
+    "intent": "feeling+situation",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.6190041899681091
+    }
+  },
+  {
+    "text": "I felt bad when friends could not take some time out to call me",
+    "intent": "feeling+situation",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.5869500041007996
+    }
+  },
+  {
+    "text": "Acknowledge your advice",
+    "intent": "agree",
+    "intent_prediction": {
+      "name": "evidence_against",
+      "confidence": 0.5693695545196533
+    }
+  },
+  {
+    "text": "definitely",
+    "intent": "agree",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.9993865489959717
+    }
+  },
+  {
+    "text": "Absolutely",
+    "intent": "agree",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.9993910789489746
+    }
+  },
+  {
+    "text": "It does make sense",
+    "intent": "agree",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.8068980574607849
+    }
+  },
+  {
+    "text": "That probably makes sense",
+    "intent": "agree",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.9708045125007629
+    }
+  },
+  {
+    "text": "Public speaking",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "act_how",
+      "confidence": 0.5084326267242432
+    }
+  },
+  {
+    "text": "run",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "agree",
+      "confidence": 0.5222174525260925
+    }
+  },
+  {
+    "text": "Sports",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "positive_belief",
+      "confidence": 0.7226236462593079
+    }
+  },
+  {
+    "text": "Tourrettes",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "agree",
+      "confidence": 0.23395936191082
+    }
+  },
+  {
+    "text": "finance",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "agree",
+      "confidence": 0.4347131848335266
+    }
+  },
+  {
+    "text": "laugh",
+    "intent": "situation_area",
+    "intent_prediction": {
+      "name": "agree",
+      "confidence": 0.3026811182498932
+    }
+  },
+  {
+    "text": "What do I do now ?",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.5156033039093018
+    }
+  },
+  {
+    "text": "I feel lost and unsure",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.7337309718132019
+    }
+  },
+  {
+    "text": "Really difficult for me to decide",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "interpretation",
+      "confidence": 0.6822818517684937
+    }
+  },
+  {
+    "text": "I am not sure if I am capable of doing this or not",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.5219649076461792
+    }
+  },
+  {
+    "text": "I am not sure",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.5534151792526245
+    }
+  },
+  {
+    "text": "I am not sure about my life right now",
+    "intent": "doubt",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.4891239106655121
+    }
+  },
+  {
+    "text": "I am basically defective and inferior to other people",
+    "intent": "negative_belief",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.20568853616714478
+    }
+  },
+  {
+    "text": "I just follow the crowd and have no opinions of my own",
+    "intent": "negative_belief",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.40158194303512573
+    }
+  },
+  {
+    "text": "No one thinks of me as a friend",
+    "intent": "negative_belief",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.23820911347866058
+    }
+  },
+  {
+    "text": "Nobody found time to attend the party I was throwing",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "act_how",
+      "confidence": 0.21009933948516846
+    }
+  },
+  {
+    "text": "i have a paper due next week",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.3368685245513916
+    }
+  },
+  {
+    "text": "I had fever",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "feeling",
+      "confidence": 0.8507230877876282
+    }
+  },
+  {
+    "text": "My friends do not pay any attention to anything I have to say",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "feeling+situation",
+      "confidence": 0.7033997774124146
+    }
+  },
+  {
+    "text": "When I talk about my mental health, everyone just rubbishes everything that I have to say",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.6527051329612732
+    }
+  },
+  {
+    "text": "kids don't study",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.973757266998291
+    }
+  },
+  {
+    "text": "I do not play with Rubik's cube.",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.23551785945892334
+    }
+  },
+  {
+    "text": "it was about 6:15. I had just gotten back from dinner. The dorm was pretty empty because I ate early. i was about to get my books out of my backpack so i could do my chemistry homework.",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.4409979283809662
+    }
+  },
+  {
+    "text": "Doing Nothing creative",
+    "intent": "situation",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.4510943293571472
+    }
+  },
+  {
+    "text": "My heart started beating real fast and I thought, “What’s wrong with me?”",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.315804123878479
+    }
+  },
+  {
+    "text": "How do I even move forward from here ?",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.7364275455474854
+    }
+  },
+  {
+    "text": "That I’m not smart enough. I don’t have what it takes.",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.41953662037849426
+    }
+  },
+  {
+    "text": "Am I suffering from insomnia ?",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.2002715915441513
+    }
+  },
+  {
+    "text": "What the heck is wrong with me?",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.3762677013874054
+    }
+  },
+  {
+    "text": "My professor thinks that I do no work at all and I am just fooling around",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "thought+situation",
+      "confidence": 0.5290393829345703
+    }
+  },
+  {
+    "text": "No, not at all! I was thinking that I don’t know whether I belong here.",
+    "intent": "thought",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.3667830526828766
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.4845505952835083
+    }
+  },
+  {
+    "text": "I'm not good",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.5486534833908081
+    }
+  },
+  {
+    "text": "I broke out in a cold sweat",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "situation",
+      "confidence": 0.708420991897583
+    }
+  },
+  {
+    "text": "Worst day ever!",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.22516928613185883
+    }
+  },
+  {
+    "text": "I'm quite tense.",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.6898564100265503
+    }
+  },
+  {
+    "text": "I'd feel better",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "advantages_of_acting",
+      "confidence": 0.5751887559890747
+    }
+  },
+  {
+    "text": "I've overworked",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "feeling+situation",
+      "confidence": 0.5530691146850586
+    }
+  },
+  {
+    "text": "I am demotivated",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.9253207445144653
+    }
+  },
+  {
+    "text": "That is frightening",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "disagree",
+      "confidence": 0.689667820930481
+    }
+  },
+  {
+    "text": "Everything vexes me",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "thought",
+      "confidence": 0.5814781785011292
+    }
+  },
+  {
+    "text": "awful",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "agree",
+      "confidence": 0.458050012588501
+    }
+  },
+  {
+    "text": "I'm worn out",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "doubt",
+      "confidence": 0.3895459771156311
+    }
+  },
+  {
+    "text": "I have no patience today",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "negative_belief",
+      "confidence": 0.48777708411216736
+    }
+  },
+  {
+    "text": "that would be a great relief if the paper were done, and I thought I'd done well.",
+    "intent": "feeling",
+    "intent_prediction": {
+      "name": "act_how",
+      "confidence": 0.5056315660476685
+    }
+  }
+]

@@ -1,0 +1,717 @@
+version: "3.1"
+nlu:
+- intent: interpretation
+  examples: |
+    - I had difficult thoughts
+    - I think I was denying my real feelings.
+    - I think i was overreacting in this situation
+- intent: advantages_of_acting
+  examples: |
+    - Can become better at interacting with people
+    - I'll feel better about myself
+    - I feel I have more clarity about my thoughts now
+- intent: explain
+  examples: |
+    - Well, sometimes automatic thoughts just pop into my head and I accept them as true. And then I feel ... whatever: sad, worried ...
+    - I have this constant feeling that I would be discouraged if I decide to change my life for the better, this sort of constant fear of failure is there
+    - I sometimes make up situations that are bad for me and simply not true
+- intent: behavior
+  examples: |
+    - I felt so bad I thought I wouldn’t have much fun at lunch with Allison so I told her I wasn’t feeling well and just went back to my room.
+    - I skipped football practice and watched Instagram reels all day
+    - No. I just walked over to the table and started talking to my friend.
+    - I just lay in my bed the whole day
+    - i just lay down on my bed
+- intent: goodbye
+  examples: |
+    - bye bye
+    - cu
+    - bye
+    - good by
+    - good night
+    - see you later
+    - have a nice day
+- intent: greet
+  examples: |
+    - hey there
+    - hello there
+    - let's go
+    - good evening
+    - moin
+    - hi
+    - hey
+    - good afternoon
+    - good morning
+- intent: evidence_against
+  examples: |
+    - I am very comfortable at understanding other people’s emotions
+    - I performed bad because my health was very bad that day
+    - Even I forget the birthdays of people I care about
+    - I am very comfortable to tell people how I feel
+    - A lot of important people believe that I will do well
+    - A lot of people took the effort to wish me luck in my previous exam
+    - The competition was too competitive
+    - The deadline was too strict and many people missed the deadline
+    - I understand these concepts very well
+    - The professor is rude to everyone
+    - Everyone took more time at doing that task
+    - Teacher was not good at explaining the subject
+    - I have done very well in this test in the past
+- intent: evidence_for
+  examples: |
+    - I have been rejected before
+    - No one messages me if I don’t message first
+    - I got lower grades in that exam
+    - I was not able to complete my task before deadline the last time
+    - I have been jobless for an year now
+    - My friends forgot about me while planning their trip
+    - I have never been able to maintain my past relationships
+    - My professor scolded me for the doubt
+    - I was slow at completing my task
+    - I have almost no money in my bank account
+    - I have not passed this course previously
+    - I could not understand what was taught in the class
+    - I have not been selected in that program
+    - I could not understand the concept despite repeated attempts
+- intent: act_how
+  examples: |
+    - I would become a more confident person
+    - I would have a more positive attitude towards life
+    - I would be able to take more risks in life
+    - Play around with friends without the fear of any judgment
+    - I would have better relationships
+    - I would spend more time working rather than overthinking
+    - I would do a lot better at work
+    - I would be a more outgoing person and meet new people without hesitation
+    - I would be living in the moment
+    - I would be able to take the time to understand the things better
+    - I would be a happier person with confidence
+    - I would be a more focused person
+    - I would be working towards bettering my relationships
+    - I would not fret about my past self so much
+- intent: felt_where
+  examples: |
+    - Legs were hurting
+    - Here. In the pit of my stomach.
+    - Heartbeat was very fast
+    - Mind was lost
+    - Heavy breathing
+    - Body was itching
+    - heart palpitations
+    - Fingers were frozen
+    - Legs were crying in pain
+    - Head was hurting
+    - Body felt dehydrated
+    - Pulled muscles
+    - My arms hurt
+    - Difficulty breathing
+    - Pain in the stomach
+- intent: thought+situation
+  examples: |
+    - I appeared in one exam in which I got very good marks but eventually the paper got canceled. I feel like success is not for me
+    - I feel tense thinking how I would perform at work
+    - I am feeling uncomfortable adjusting to this new lifestyle
+    - well, school for one. and i'm not getting along well with my roommate. and then I tried to get hold of my mother again and I couldn't reach her, and, I don't know, just everything.
+    - I worry about my exams all the time
+    - I wait for something good in life to start playing.
+    - why i am not getting reply to my applications
+    - I am so conflicted about watching any movie. I keep thinking it's about me.
+    - Well this might seem silly but we were supposed to be working on a project and everyone was just doing random stuff and it was not looking as good as I expected
+    - I used to visit temples daily. I used to be happy and more alive rather than dead. I used to call my relatives and enjoy with friends. I used to do small business with my father but all this I stopped doing. Not able to maintain continuity toward work
+    - I feel sad when my work is not recognized enough
+    - I worry how my friends think about me
+    - I have been put under a lot of expectations regarding my career
+    - I feel angry when my teammates don’t contribute enough to the project
+    - I hate going to the park
+- intent: positive_belief
+  examples: |
+    - It's actually not so hard
+    - I look amazing
+    - I have a lot of good qualities
+    - Win or lose, I will do it to learn this time
+    - The people around me care for me a lot
+    - I have very good friends, who are there to support me in times of need
+    - This time I am sure it will work given the efforts I have already made
+    - I am not going to lose this time
+    - I have full faith in myself
+    - I am just shy not dumb
+    - I have done it in the past, I can do it again
+    - I am just sad not depressed
+    - It just feels right this time
+    - I have a beautiful personality
+    - I just need to learn to communicate my thoughts better
+    - I have the ability to do it
+    - I feel I can do it
+    - I will try this even though I can fail
+    - I will become the best in the world
+    - I am quite an able individual
+- intent: disagree
+  examples: |
+    - I did not mean that
+    - Does not make sense
+    - I don’t think so
+    - Those are the major things.
+    - seems wrong
+    - Nah
+    - It would not be correct to say that
+    - Nope
+    - no
+    - nothing
+    - Disagree
+    - Incorrect
+    - Not true
+    - That’s not right
+    - Wrong
+    - I would not say so
+    - I can’t say that is correct
+    - nope
+    - Not really
+    - no it's not right
+    - not possible
+    - Unlikely
+- intent: telling_friend
+  examples: |
+    - Everything you want is on the other side of fear
+    - Try to see the good things about yourself, focus more on the positive
+    - Learning from more mistakes simply means you are learning faster
+    - You are loved by a lot of people, you just don’t realize it
+    - We need to accept that we won't always make the right decisions, that we'll screw up royally sometimes – understanding that failure is not the opposite of success, it's part of success
+    - Only those who dare to fail greatly can ever achieve greatly
+    - Success is not final, failure is not fatal: it is the courage to continue that counts
+    - It's failure that gives you the proper perspective on success
+    - These failures will be the stepping stones for your success if you learn from them
+    - If you keep working hard the way you are doing, it will definitely take your career to the places you want it to go
+    - You are not alone in this, it will be fine
+    - Giving up is the only sure way to fail
+    - Failure isn't fatal, but failure to change might be
+    - You build on failure. You use it as a stepping stone. Close the door in the past. You don't try to forget the mistakes, but you don't dwell on them. You don't let it have any of your energy, or any of your time, or any of your space
+    - When you take risks you learn that there will be times when you succeed and there will be times when you fail, and both are equally important
+    - You have the best of friends and you friends will always support you
+    - Although it might not look like it right now, but you will soon be over it and living your life to the fullest
+    - You will have a wonderful career ahead
+    - Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It is a temporary detour, not a dead end. Failure is something we can avoid only by saying nothing, doing nothing, and being nothing
+    - You are truly wanted and loved by your people around you
+    - Failure is a part of the process. You just learn to pick yourself back up
+    - Life is very long and these bad moments are there to teach us things otherwise we take for granted.
+- intent: feeling+situation
+  examples: |
+    - I was very sad when my grandfather passed away
+    - I hate it when I can’t solve a math problem
+    - I was very scared when my relative got covid positive
+    - I felt bad when I could not keep up with my goals
+    - I was very disappointed when my son could not pass his exam
+    - I was angry at my brother for losing my book
+    - I am nervous about the first impression I will make at my new job
+    - I was very disappointed after my fight with my roommate
+    - I felt sorry for the dead people in the news
+    - I felt sad when my friend succumbed to covid
+    - I was hurt when my friends made plans without me
+    - I felt insulted by my boss
+    - I was disappointed when my professor rejected my request
+    - I was very angry when my teammate failed to deliver
+    - I cried when my dog got lost
+    - I am very concerned with what my career path would be like
+    - I felt sympathy for the beggars on the red light
+    - I am always worried what the society will say about my decisions
+    - I was very sad to hear the passing of my school teacher
+    - I am frustrated when I can't exercise
+    - I don't like reading books
+    - I was very nervous when the shares of my stocks fell
+    - I was depressed while going through my breakup
+    - I was delighted to see my parents at my convocation
+    - I feel weird when the health of my family members deteriorate
+    - I like eating pizzas
+    - I get angry when someone scolds me for no reason
+- intent: agree
+  examples:
+  - text: |
+      ok
+  - text: |
+      Of course
+  - text: |
+      yup
+  - text: |
+      Quite right
+  - text: |
+      Well, that's right
+  - text: |
+      Makes sense
+  - text: |
+      I wholeheartedly concur
+  - text: |
+      Uh-huh
+  - text: |
+      Feels right
+  - text: |
+      Feels senseful
+  - text: |
+      yeah think so.
+  - text: |
+      I would agree with that
+  - text: |
+      sure thing	
+  - text: |
+      True
+  - text: |
+      You are probably right
+  - text: |
+      Copy that
+  - text: |
+      Feels correct
+  - text: |
+      Correct
+  - text: |
+      yeah
+  - text: |
+      Right
+  - text: |
+      hmm
+  - text: |
+      That’s right
+  - text: |
+      I concur
+  - text: |
+      That’s not completely incorrect
+  - text: |
+      I think so
+  - text: |
+      Sure
+  - text: |
+      That’s correct
+  - text: |
+      Okay, I'll be ready.
+  - text: |
+      Its starting to make sense to me
+  - text: |
+      Maybe that's true
+  - text: |
+      Wonderful
+- intent: situation_area
+  examples: |
+    - Personal Image
+    - First Impressions
+    - School
+    - no job
+    - fight
+    - Public Image
+    - Self confidence
+    - yoga practice
+    - children
+    - Disagreement
+    - family
+    - test
+    - Housing
+    - Expectations of others
+    - relationship
+    - Future Life
+    - Money
+    - loan
+    - exams
+    - work
+    - interview
+    - trading
+    - no sleep
+    - meditation practice
+    - intern
+    - Societal pressure
+    - job
+    - Student loans
+    - covid
+    - past
+    - Personal life
+    - friends
+- intent: doubt
+  examples: |
+    - I was stuck on my feet, absolutely not sure how to decide
+    - I don't have much to show for it
+    - oh, i don't know. I'm worried about all of them.
+    - some negative thought i had
+    - Sometimes I have thoughts that are wrong and these thoughts make me feel bad... But what if thoughts are right?
+    - some negative thought
+    - I have nothing to look forward to, how will I survive this phase ?
+    - I don’t know what the future holds for me
+    - I can’t really decide for myself
+    - worry
+    - I’m in this dilemma
+    - I just feel stuck, not sure at all what to do throughout the whole day.
+    - worries
+    - I am not sure what I will do in the future
+    - something
+    - I am worried about the future
+    - I’m just lost in my thoughts
+    - I am facing this dilemma
+    - I can’t think off my feet, I am always confused and make the wrong decisions.
+    - Confused
+    - I am always unsure
+    - issues
+    - I feel so confused
+    - Can’t decide between them
+    - That is what I am worried about
+    - i have self-doubt
+    - Looks all the same to me
+    - thought paralysis
+    - I am not sure about my decisions, I feel I am always wrong
+    - Not quite sure
+    - I feel lost, always second guessing my decisions
+    - events
+- intent: negative_belief
+  examples: |
+    - There is nothing good about me
+    - I must always please people and live up to everyone's expectations
+    - I cannot compete with others, they are just too good for me
+    - I am such a mediocre girl
+    - I am good for nothing
+    - I am just a robot which others manipulate
+    - Other people are so much better than me
+    - I will always be mediocre
+    - I have no character of my own
+    - I am a nobody
+    - I am worthless
+    - I don’t deserve to be loved
+    - I have no friends
+    - I don’t have enough IQ to have a good career
+    - I am such a mediocre boy
+    - I have a sheep mentality
+    - I will always be unloved
+    - If someone criticizes me, it means there's something wrong with me
+    - I am no good to this world
+    - The world should always meet my expectations
+    - I will never have a good life
+    - I'm hopeless and bound to feel depressed forever because the problems in my life are impossible to solve
+    - Only I am responsible for all my problems
+    - I don’t deserve anything
+    - I am not capable of something great
+    - I am unlovable
+    - I am such a bad person
+    - I have not one good ability
+    - I don’t have the ability at all
+    - Other people are to blame for my problems
+    - I always have to seek others approval to make decisions
+    - I am a loser
+    - I must have the love and approval of others before I can feel good about myself
+    - I will never be as good as them
+- intent: situation
+  examples: |
+    - Condescending remarks from my teachers
+    - I was in the park observing small kids play football
+    - I was catching up with my school teacher who had expected a lot from me in life
+    - I made so many silly mistakes in my exam
+    - When my YT videos don't get views
+    - I was catching up with my ex boyfriend
+    - I was meant to be revising for an exam this weekend, but I've procrastinated all day.
+    - Spending a lot of time on phone/mobile
+    - I was sitting in the train and wondering
+    - I was watching a movie
+    - My friend sent a bland good morning message
+    - When my relationship is so toxic
+    - She’s saying something about what topics we can choose, a macroeconomic view of the economy or ... something, and then this guy on my left leans over and whispers, “When’s the paper due?”
+    - I was not prepared well enough for the interview
+    - When I performed very bad in my exams and came out of the hall
+    - The coach criticized my performance in front of all my teammates
+    - I stopped working out
+    - The day before semester grades were to be released
+    - Just before a test
+    - I looked at how I looked in the new dress my parents had gifted me
+    - Disagreement with my colleague
+    - After I came back from that party
+    - At 2AM in the night
+    - I’m in my Economics class. The professor is standing in front of the class. Let’s see, I was sitting about three-quarters of the way back, I was listening pretty hard ...
+    - I was looking at how my stocks are doing in the market
+    - No productive work
+    - I was preparing for my exam.
+    - I have no projects to show for whereas my friends have already done so much work
+    - I was looking at the people in the park, hanging out, playing Frisbee, things like that
+    - I was on my phone for the whole weekend and was not able to complete any pending work that I had
+    - I think I was thinking about my Economics class, getting my paper back.
+    - My friend got a new job
+    - The night before a test
+    - I was meeting with my project mentor after a long time
+    - I was doing all my work alone even though it was a group project
+    - Nobody called me on my birthday
+    - The night before my trip with my old school friends
+    - I broke the promises I had made to a friend
+    - First Day at a new place
+    - I looked at the hotel bill
+    - I was a lot of reels on instagram
+    - I had to go to talk to my professor regarding my project
+    - I really underperformed in my tests
+    - I was trying really hard to get the attention of that person
+    - My parents are out of town
+    - Teachers scolded me for no reason
+    - My parents were disappointed in me after I got a bad grade in school
+    - When my partner does not seem to care enough about my mental well-being
+    - My friend bought a new car
+    - All my teammates were playing so much better than me
+    - I was playing table-tennis
+    - I was wondering which schools I would join after my graduation
+    - When I looked at the hospital bill for the treatment
+    - I am feeling sick
+    - The night before valentines day
+    - Well, she’s been taking my food and not replacing it. Not in a malicious way, but it still bothers me. And she’s got a boyfriend, and whenever she talks about him, it reminds me that I don’t have one. And she’s messy; she leaves stuff all around ... And she’s kind of inconsiderate. Sometimes she talks really loudly on her cell phone.
+    - The interviewer made me feel I knew nothing even though I had prepared a lot
+    - I was sitting in my room.
+    - I stopped exercising
+    - I was going through resumes of the seniors of my college
+    - Everybody ignored my messages
+    - I was watching TV all day and did absolutely no work
+    - I have my end sem tomorrow
+- intent: thought
+  examples: |
+    - I might never be able to pay of this debt
+    - What if I fall sick and don't get the treatment?
+    - She probably talks behind my back to a lot of people
+    - I hate some people
+    - Yeah. I was thinking that she was too busy for me, that she didn’t really want to help me, and I wouldn’t know what to do.
+    - this is too easy for me
+    - I couldn't get motivated
+    - I have anger issues
+    - When I was studying
+    - Do I have enough IQ to make it to this school ?
+    - That I can't do anything on time.
+    - My teammates think that I contribute nothing to the project
+    - That person probably just hates me and that would have a big effect on my career
+    - Why does all the bad happen only to me ?
+    - He probably thinks that I am fool
+    - I'm just a loser
+    - What does he think about me ?
+    - Will I be able to form a meaningful relationship with anyone in my life ?
+    - What if the market crashes and I lose all my money ?
+    - I might get stage fright and would just get stuck in front of everybody
+    - everyone else probably did better than I did.
+    - I thought, “I’ll never trust him.”
+    - Will I be able to trust another person again ?
+    - Will my parents accept my decision ?
+    - this is just too hard. I'll never understand it.
+    - I have such a normal profile, I will never get into that college
+    - What will my relatives think about this ?
+    - Yeah. I pictured a “C” at the top, in red ink.
+    - Is taking the student loan worth it ?
+    - I should have done better. i should have studied harder
+    - Nobody here likes me at all, I should probably just keep myself to a minimum
+    - I might embarrass myself
+    - I might not be able to maintain a good CPI in college
+    - What if I got hurt?
+    - What if I have covid?
+    - Will I be able to meet the deadlines that I have enthusiastically set for myself ?
+    - I am so underdressed for this party
+    - I might not be able to win this time
+    - I am no more considered a close friend
+    - What does she think about me ?
+    - Why only me ?
+    - I don’t like to end up like them
+    - I'll never be like them
+    - I will not make it to the good colleges for my masters
+    - What if I am not able to complete this before the deadline?
+    - I might not pass this course this semester
+    - Why would a good college accept me, I have nothing to show for my past record
+    - This is just not for me
+    - What if the professor thinks that I am an irresponsible student now ?
+    - I thought, "I'll never feel okay."
+    - I will not be able to complete this project on time
+    - What did she say? What did I miss? Now I won’t know what to do.
+    - Leading this team is so overwhelming
+    - This idea just looks dumb and I would make a fool of myself in front of the class
+    - I’ll probably never recover from this loss
+    - I always underestimate my caliber in front of an audience and get nervous
+    - Everyone will probably make me laughing stock after this
+    - I just wish I could rewind my life and do it all again
+    - I am always so irritated by everyone around me
+    - I have tried to understand the concepts so many times, but nothing seems to work. I am a failure.
+    - I shouldn’t have done this
+    - What if he gets angry?
+    - Will my parents be ever proud of me ?
+    - I will probably score very poor marks in tomorrow's exam
+    - this too shall will pass
+    - This will never work
+    - I think I will get scolded for this
+- intent: feeling
+  examples: |
+    - I am a chronic worrier.
+    - I’m annoyed
+    - i had a slow day
+    - I'm always alone
+    - sad
+    - This is bad
+    - I am angry
+    - I feel very belligerent
+    - I’m feeling rather restless
+    - This sucks!
+    - Everything is bad today
+    - Dizzy
+    - I've gotten used to living alone
+    - I'm completely drained out
+    - i was tired
+    - I feel scared
+    - I'm kinda bored today
+    - boring
+    - Actually I'm not fine
+    - terrible
+    - I'm feeling very sad
+    - That is infuriating
+    - I feel low
+    - I have butterflies in my stomach
+    - I have no one to talk to
+    - more anxious
+    - I’m suffering from anxiety.
+    - I am afraid of my own shadow
+    - I hate doing this
+    - Frustrated
+    - I feel constant tension
+    - extremely sad
+    - I feel really sad, with an emptiness in the pit of my stomach.
+    - I feel useless
+    - I don't feel very well
+    - I am full of fury
+    - I’ve been feeling rather anxious lately.
+    - Felt lost
+    - I find myself worrying about every little detail
+    - I feel so offended
+    - I'm already bored
+    - I cannot concentrate due to the whole number of worries that are bothering me
+    - I am not feeling well
+    - I am breaking out in a cold sweat
+    - I am sad
+    - I'm grieving
+    - I am stressed out
+    - I'm all alone
+    - I live alone
+    - I’m super annoyed
+    - I'm pissed
+    - i am very bored
+    - I am stressed
+    - unhappy
+    - I shrank back in fear
+    - I feel very sad
+    - I don't have any company
+    - I am like a cat on hot bricks
+    - I am very frustrated
+    - I am tongue tied
+    - I am scared to death
+    - I'm spooked easily
+    - bored
+    - I am still alone
+    - I'm very mad
+    - I am very tense
+    - My anxiety is rather through the roof these days.
+    - I'm under a lot of stress
+    - very bad
+    - getting angry
+    - I'm pissed off
+    - It's annoying
+    - I'm getting tired
+    - I don't have anyone else
+    - my day was horrible
+    - Anxious, I think
+    - I am feeling guilty
+    - I think I've been living alone too long
+    - I am so annoyed
+    - I am sick
+    - This is maddening!
+    - I'm trembling from fear
+    - Im feeling sad
+    - I'm so tired
+    - This is nerve wracking
+    - heavy
+    - I am disappointed
+    - I feel tired
+    - very frustrated
+    - I am a loner
+    - I'm uneasy
+    - I am alarmed
+    - That is intimidating
+    - so sad
+    - I'm still angry about that
+    - I am petrified
+    - I am little tired
+    - I am nervous
+    - Feels horrible
+    - Am irritated
+    - It is irritating me
+    - am all alone
+    - I am feeling too bad
+    - i feel tired
+    - I am depressed
+    - aweful
+    - It's been a rough couple of days. VERY stressful
+    - I'm feeling sad
+    - I'm alone
+    - I'm a bit tires
+    - bad
+    - sad, I think
+    - hating
+    - that was boring
+    - I am having performance anxiety
+    - so bored
+    - I'm enraged
+    - a little bit better. not that much
+    - That startled me!
+    - i am awfully tired
+    - I am scared
+    - This is depressing
+    - not feeling good
+    - very sad
+    - I'm constantly worried
+    - I have a lump in my throat
+    - I'm feeling low
+    - I’m straight up angry.
+    - Yes. I just don't know why I've been so upset all the time.
+    - Staying at home is boring
+    - I'm very tired
+    - That's aggravating
+    - Felt very unproductive
+    - I don’t know. I was just really down.
+    - I am tired
+    - I cannot concentrate as I'm worried constantly
+    - I am getting bored
+    - I am feeling quite lost
+    - It's very boring
+    - I am troubled
+    - I was bored
+    - I’m always so tired and I never have energy actually to do anything
+    - I feel lonely
+    - I’ve been feeling a little burdened lately wasn't sure why that was
+    - It's boring
+    - Not good
+    - i'm dead tired
+    - I am lonely
+    - I'm not okay
+    - I am going through a rather rough time
+    - I feel uneasy
+    - Panic
+    - I am afraid
+    - I panicked
+    - I'm fearful
+    - I feel like I am going to throw up
+    - I'm horrified
+    - nervous
+    - I feel very empty within
+    - I'm bored
+    - I'm bored out of my mind
+    - not that good. I think it is the paper that's bothering me the most.
+    - depressed
+    - I feel bored
+    - I am at my wits' end
+    - I am all low today
+    - I'm feeling down
+    - I am as lonely as can be
+    - I'm very lonely
+    - U made me angry
+    - I am outraged
+    - I’m anxious.
+    - I’m feeling rather restless and a horde of worries is bothering me
+    - I am jumping out of my skin
+    - I'm tensed
+    - I don't know. I was just feeling so down, sad.
+    - I feel intimidated
+    - That made me angry
+    - I am feeling lonely
+    - I am a bundle of nerves
+    - I feel painful
+    - I'm exhausted
+    - I'm awful
+    - It's disappointing
+    - I’m so mad.
+    - I am really tired
+    - I'm worried
+    - There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.
+    - I could not control my anger
