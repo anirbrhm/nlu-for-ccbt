@@ -12,3 +12,5 @@ pip install transformers
 use rasa train nlu
 
 rasa test nlu --nlu data/nlu.yml --config config/config1.yml config/config2.yml config/config3.yml config/config4.yml --runs 4 --percentages 0 25 50 70 90
+
+#TODO Update the requirements.txt file 
